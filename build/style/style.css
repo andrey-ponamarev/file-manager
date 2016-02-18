@@ -1,0 +1,55 @@
+body {
+    max-width: 960px;
+}
+
+[class*="col-xs-"],
+[class*="col-md-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.table {
+    margin-bottom: 0;
+    border: none;
+}
+
+.row {
+    margin: 0;
+}
+
+.control-panel{
+    margin-top: 30px;
+}
+
+.file-manager {
+    border: 1px solid;
+}
+
+.create-new {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.page {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity    : 0;
+    transition : opacity 0.5s ease-in;
+}
+
+.page.page-show {
+    opacity : 1;
+    z-index: 100;
+}
+
+.page.page-hide {
+    opacity : 0;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 950px;
+}
